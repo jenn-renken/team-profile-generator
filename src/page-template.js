@@ -9,9 +9,9 @@ const managerTemplate = (employees) => `
   </div>
   <div class="card-body">
     <ul class="list-group text-left">
-      <li class="list-group-item">ID:${employees.id}</li>
-      <li class="list-group-item">Email:<a href="mailto:${employees.email}">${employees.email}</a></li>
-      <li class="list-group-item">Office number:${employees.officeNumber}</li>
+      <li class="list-group-item">ID: ${employees.id}</li>
+      <li class="list-group-item">Email: <a href="mailto:${employees.email}">${employees.email}</a></li>
+      <li class="list-group-item">Office number: ${employees.officeNumber}</li>
     </ul>
     </div>
   </div>
@@ -29,9 +29,9 @@ const engineerTemplate = (employees) => {
 </div>
 <div class ="card-body">
   <ul class="list-group text-left">
-    <li class="list-group-item">ID:${employees.id}</li>
-    <li class="list-group-item">Email:<a href="mailto:${employees.email}">${employees.email}</a></li>
-    <li class="list-group-item">GitHub:<a target="_blank" href="https://github.com/${employees.github}">Github</a></li>
+    <li class="list-group-item">ID: ${employees.id}</li>
+    <li class="list-group-item">Email: <a href="mailto:${employees.email}">${employees.email}</a></li>
+    <li class="list-group-item">GitHub: <a target="_blank" href="https://github.com/${employees.github}">${employees.github}</a></li>
   </ul>
   </div>
   </div>
@@ -49,9 +49,9 @@ const internTemplate = (employees) => `
 <div class ="card-body">
 
 <ul class="list-group text-left">
-<li class="list-group-item">ID:${employees.id}</li>
-<li class="list-group-item">Email:<a href="mailto:${employees.email}">${employees.email}</a></li>
-<li class="list-group-item">School:${employees.school}</li>
+<li class="list-group-item">ID: ${employees.id}</li>
+<li class="list-group-item">Email: <a href="mailto:${employees.email}">${employees.email}</a></li>
+<li class="list-group-item">School: ${employees.school}</li>
 </ul>
   </div>
 </div>
